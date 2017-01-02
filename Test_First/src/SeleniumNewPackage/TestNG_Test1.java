@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
@@ -22,8 +23,16 @@ private WebDriver wd;
 
 @Test
   public void f() {
-	wd.findElement(By.xpath("//*[@id='1480664176477']/section")).click();
-	Assert.assertTrue(wd.findElements(By.xpath("//*[@id='1480664176477']/section")).size() != 0 );
+	
+	Assert.assertTrue(wd.findElements(By.xpath("//*[@id='1480664176477']/section/div/div[1]/div/section/div[1]")).size() != 0 );
+
+	//wd.findElement(By.xpath("//*[@id='type']")).sendKeys(arg0);
+	Select sElement = new Select(wd.findElement(By.xpath("//*[@id='type']")));
+	sElement.selectByVisibleText("Home Insurance");
+	wd.findElement(By.xpath("//*[@id='zipcode']")).sendKeys("90210");
+	wd.findElement(By.xpath("//*[@id='1480664176477']/section/div/div[1]/div/section/form/div[10]/button")).click();
+	Assert.assertTrue(wd.findElements(By.xpath("//*[@id='pane-header-YI01-0']/h1")).size() != 0, "Page Home Insurance is displayed");
+
   }
   @BeforeMethod
   public void beforeMethod() {

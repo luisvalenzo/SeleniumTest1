@@ -6,7 +6,12 @@
       <class name="SeleniumNewPackage.TestNG_Test1">
         <methods>
           <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
           <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
           <include name="f"/>
           <include name="beforeClass"/>
         </methods>
