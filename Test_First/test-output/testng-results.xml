@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31732" started-at="2017-01-03T01:17:17Z" finished-at="2017-01-03T01:17:49Z">
+  <suite name="Default suite" duration-ms="29026" started-at="2017-01-03T01:53:18Z" finished-at="2017-01-03T01:53:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31732" started-at="2017-01-03T01:17:17Z" finished-at="2017-01-03T01:17:49Z">
+    <test name="Default test" duration-ms="29026" started-at="2017-01-03T01:53:18Z" finished-at="2017-01-03T01:53:47Z">
       <class name="SeleniumNewPackage.TestNG_Test2">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="beforeSuite" is-config="true" duration-ms="29" started-at="2017-01-02T19:17:17Z" finished-at="2017-01-02T19:17:17Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="beforeSuite" is-config="true" duration-ms="29" started-at="2017-01-02T19:53:18Z" finished-at="2017-01-02T19:53:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-01-02T19:17:17Z" finished-at="2017-01-02T19:17:17Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-01-02T19:53:18Z" finished-at="2017-01-02T19:53:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="beforeClass" is-config="true" duration-ms="5932" started-at="2017-01-02T19:17:17Z" finished-at="2017-01-02T19:17:23Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="beforeClass" is-config="true" duration-ms="5825" started-at="2017-01-02T19:53:18Z" finished-at="2017-01-02T19:53:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="beforeMethod" is-config="true" duration-ms="21000" started-at="2017-01-02T19:17:23Z" finished-at="2017-01-02T19:17:44Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="beforeMethod" is-config="true" duration-ms="17237" started-at="2017-01-02T19:53:24Z" finished-at="2017-01-02T19:53:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="f" duration-ms="4012" started-at="2017-01-02T19:17:44Z" finished-at="2017-01-02T19:17:48Z">
+        <test-method status="PASS" signature="SelectFlight()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="SelectFlight" duration-ms="3663" started-at="2017-01-02T19:53:42Z" finished-at="2017-01-02T19:53:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-01-02T19:17:48Z" finished-at="2017-01-02T19:17:48Z">
+        </test-method> <!-- SelectFlight -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-01-02T19:53:45Z" finished-at="2017-01-02T19:53:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="afterClass" is-config="true" duration-ms="717" started-at="2017-01-02T19:17:48Z" finished-at="2017-01-02T19:17:49Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="afterClass" is-config="true" duration-ms="2222" started-at="2017-01-02T19:53:45Z" finished-at="2017-01-02T19:53:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-01-02T19:17:49Z" finished-at="2017-01-02T19:17:49Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-01-02T19:53:47Z" finished-at="2017-01-02T19:53:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-01-02T19:17:49Z" finished-at="2017-01-02T19:17:49Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:SeleniumNewPackage.TestNG_Test2@91161c7]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-01-02T19:53:47Z" finished-at="2017-01-02T19:53:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

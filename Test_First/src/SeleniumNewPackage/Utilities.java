@@ -12,12 +12,12 @@ public class Utilities {
 	
 	public static void SelectCity(String City, WebDriver wd){
 		String Xpath;
+		/*Xpath="//*[@id='airports-list-wrapper']/div/div/div/div[2]/div/div[1]/div[2]/ul/li/ul/li["+1+"]/a";
+		System.out.println(wd.findElement(By.xpath(Xpath)).getText());*/
 		for (int i=1;i<wd.findElements(By.xpath("//*[@id='airports-list-wrapper']/div/div/div/div[2]/div/div[1]/div[2]/ul/li/ul")).size(); i++){
-			Xpath="//*[@id='airports-list-wrapper']/div/div/div/div[2]/div/div[1]/div[2]/ul/li/ul/li[" + i + "]/a";
-			System.out.println(wd.findElement(By.xpath(Xpath)));
+			Xpath="//*[@id='airports-list-wrapper']/div/div/div/div[2]/div/div[1]/div[2]/ul/li/ul/li[" + String.valueOf(i) + "]/a";
+			System.out.println(wd.findElement(By.xpath(Xpath)).getText());
 		}
-		
-		
 	}
 
 }

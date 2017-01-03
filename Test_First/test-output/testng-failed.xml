@@ -10,9 +10,9 @@
           <include name="afterClass"/>
           <include name="afterTest"/>
           <include name="afterMethod"/>
+          <include name="SelectFlight"/>
           <include name="beforeMethod"/>
           <include name="beforeSuite"/>
-          <include name="f"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- SeleniumNewPackage.TestNG_Test2 -->
