@@ -29,7 +29,7 @@ private WebDriver wd;
 
 @Test
   public void f() {
-	
+	//VerifyPage
 	Assert.assertTrue(wd.findElements(By.xpath("//*[@id='1480664176477']/section/div/div[1]/div/section/div[1]")).size() != 0 );
 
 	//wd.findElement(By.xpath("//*[@id='type']")).sendKeys(arg0);
